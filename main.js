@@ -33,6 +33,7 @@ search.addEventListener("input",()=>{
 )
 clear.addEventListener("click",()=> {
     search.value=""
+    search.classList.add("d-none")
     filterItems()
     clear.classList.toggle("d-none")
 })
